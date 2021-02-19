@@ -7,16 +7,24 @@ nav {
     background: transparent;
     border: none;
     cursor: pointer;
-
+    border-radius: 50%;
+    padding: 0.5rem 0.6rem;
     transition: all 0.3s ease;
-    &:hover {
-      background-color: rgb(44, 44, 44);
-      color: white;
+    img {
+      width: 40px;
+      &:hover {
+        background-color: transparent;
+      }
     }
   }
+  .library-active {
+    background: rgb(231, 41, 41);
+    color: white;
+  }
 }
-@media screen and (max-width: 768) {
-  .nav {
+
+@media screen and (max-width: 768px) {
+  nav {
     button {
       z-index: 10;
     }

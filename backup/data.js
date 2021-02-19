@@ -1,63 +1,97 @@
 import { v4 as uuidv4 } from "uuid";
-function data() {
+function chillHop() {
   return [
     {
-      name: "Beaver Creek",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/12/33a2a875828118a3ff260638a88362936104879a-1024x1024.jpg",
-      artist: "Aso, Middle School, Aviino",
-      audio: "audio/02. Black Magic.mp3",
+      name: "Seven Nation Army",
+      cover: "covers/seven_nation_army.jpg",
+      artist: "The white Stripes",
+      audio: "audio/01 - Seven Nation Army (Album Version).mp3",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
       active: true,
     },
     {
-      name: "Daylight",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
+      name: "Watermelon Sugar",
+      cover: "covers/harry_styles.jpg",
+      artist: "Harry Styles",
+      audio: "audio/Harry Styles - Watermelon Sugar.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Keep Going",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-      artist: "Swørn",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
+      name: "Paradise",
+      cover: "covers/full_of_stars.jpg",
+      artist: "Coldplay",
+      audio: "audio/Coldplay - Paradise .mp3",
       color: ["#CD607D", "#c94043"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Nightfall",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
-      color: ["#EF8EA9", "#ab417f"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
-      name: "Reflection",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-      artist: "Swørn",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
+      name: "Viva La Vida",
+      cover: "covers/full_of_stars.jpg",
+      artist: "Coldplay",
+      audio: "audio/Coldplay - Viva La Vida .mp3",
       color: ["#CD607D", "#c94043"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Under the City Stars",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-      artist: "Aso, Middle School, Aviino",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
-      color: ["#205950", "#2ab3bf"],
+      name: "A Sky Full Of STARS",
+      cover: "covers/full_of_stars.jpg",
+      artist: "Coldplay",
+      audio: "audio/Coldplay - A Sky Full of Stars .mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "A head Full Of Dreams",
+      cover: "covers/full_of_stars.jpg",
+      artist: "Coldplay",
+      audio: "audio/Coldplay - A Head Full Of Dreams .mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+
+    {
+      name: "No Hay nadie Como tu",
+      cover: "covers/tacuba.jpg",
+      artist: "Calle 13",
+      audio: "audio/alle 13 - No Hay Nadie Como Tú (Audio) ft. Café Tacuba.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+
+    {
+      name: "Bajo El Agua",
+      cover: "covers/medrano.jpg",
+      artist: "Manuel Medrano",
+      audio: "audio/Manuel Medrano - Bajo El Agua (Video Oficial).mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+
+    {
+      name: "You're Beautiful",
+      cover: "covers/james_blunt.jpg",
+      artist: "James Blunt",
+      audio: "audio/You re Beautiful - James Blunt 🎵.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+
+    {
+      name: "Up & Up",
+      cover: "covers/full_of_stars.jpg",
+      artist: "Coldplay",
+      audio: "audio/Coldplay - Up&Up (Official Video).mp3",
+      color: ["#CD607D", "#c94043"],
       id: uuidv4(),
       active: false,
     },
@@ -65,4 +99,4 @@ function data() {
   ];
 }
 
-export default data;
+export default chillHop;

@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
-function chillHop() {
+function data() {
   return [
+    //TOP 10
     {
       name: "Seven Nation Army",
       cover: "covers/seven_nation_army.jpg",
@@ -10,15 +11,7 @@ function chillHop() {
       id: uuidv4(),
       active: true,
     },
-    {
-      name: "Watermelon Sugar",
-      cover: "covers/harry_styles.jpg",
-      artist: "Harry Styles",
-      audio: "audio/Harry Styles - Watermelon Sugar.mp3",
-      color: ["#EF8EA9", "#ab417f"],
-      id: uuidv4(),
-      active: false,
-    },
+
     {
       name: "Paradise",
       cover: "covers/full_of_stars.jpg",
@@ -60,7 +53,8 @@ function chillHop() {
       name: "No Hay nadie Como tu",
       cover: "covers/tacuba.jpg",
       artist: "Calle 13",
-      audio: "audio/alle 13 - No Hay Nadie Como Tú (Audio) ft. Café Tacuba.mp3",
+      audio:
+        "audio/Calle 13 - No Hay Nadie Como Tú (Audio) ft. Café Tacuba.mp3",
       color: ["#CD607D", "#c94043"],
       id: uuidv4(),
       active: false,
@@ -95,8 +89,248 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    //ADD MORE HERE
+
+    //Daft PUNK
+    {
+      name: "Give Life Back To Music",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/01 Give Life Back To Music.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "The Game of Love",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/02 The Game of Love.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Giorgio by Moroder",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/03 Giorgio by Moroder.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Within",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/04 Within.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Instant Crush",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/05 Instant Crush.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Lose Yourself To Dance",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/06 Lose Yourself To Dance.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Touch",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/07 Touch.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Get Lucky",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/08 Get Lucky.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Beyond",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/09 Beyond.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Motherboard",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/10 Motherboard.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Fragments of Time",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/11 Fragments of Time.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Doin'it Right",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/12 Doin'it Right.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Contact",
+      cover:
+        "https://ia801909.us.archive.org/7/items/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5/mbid-79215cdf-4764-4dee-b0b9-fec1643df7c5-25581939208.jpg",
+      artist: "Daft Punk",
+      audio: "audio/13 Contact.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    //harry styles}
+    {
+      name: " Golden",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/01. Golden.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Watermelon Sugar",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/02. Watermelon Sugar.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Adore You",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/03. Adore You.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Lights Up",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/04. Lights Up.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Cherry",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/05. Cherry.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Falling",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/06. Falling.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " To Be So Lonely",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/07. To Be So Lonely.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " She",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/08. She.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Sunflower, Vol. 6",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/09. Sunflower, Vol. 6.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Canyon Moon",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/10. Canyon Moon.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Treat People With Kindness",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/11. Treat People With Kindness.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: " Fine Line",
+      cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+      artist: "Harry Styles",
+      audio: "audio/12. Fine Line.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
-export default chillHop;
+export default data;
