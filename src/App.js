@@ -22,6 +22,14 @@ function App() {
     volume: 0,
   });
   const [libraryStatus, setLibraryStatus] = useState(false);
+  const [albumcover, setalbumcover] = useState("");
+
+  //spotify API
+  const albumArt = require("album-art");
+
+  albumArt(currentSong.artist).then((coverResponse) => {
+    setalbumcover(coverResponse);
+  });
 
   const timeUpdateHandler = (e) => {
     const current = e.target.currentTime;
@@ -47,7 +55,12 @@ function App() {
   return (
     <div className={`App ${libraryStatus ? "App-library-active" : ""}`}>
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
-      <Song isPlaying={isPlaying} currentSong={currentSong} />
+      <Song
+        albumcover={albumcover}
+        setalbumcover={setalbumcover}
+        isPlaying={isPlaying}
+        currentSong={currentSong}
+      />
       <Player
         audioRef={audioRef}
         setIsPlaying={setIsPlaying}
