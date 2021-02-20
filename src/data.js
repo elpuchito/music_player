@@ -330,6 +330,76 @@ function data() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Wake Me Up",
+      cover:
+        "https://images-na.ssl-images-amazon.com/images/I/61kS5HJqLDL._SL1200_.jpg",
+      artist: "Avicii",
+      audio: "http://www.musci.rf.gd/01%20Wake%20Me%20Up.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "You Make Me",
+      cover:
+        "https://images-na.ssl-images-amazon.com/images/I/61kS5HJqLDL._SL1200_.jpg",
+      artist: "Avicii",
+      audio: "http://www.musci.rf.gd/02%20You%20Make%20Me.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Hey Brother",
+      cover:
+        "https://images-na.ssl-images-amazon.com/images/I/61kS5HJqLDL._SL1200_.jpg",
+      artist: "Avicii",
+      audio: "http://www.musci.rf.gd/03%20Hey%20Brother.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Addicted To You",
+      cover:
+        "https://images-na.ssl-images-amazon.com/images/I/61kS5HJqLDL._SL1200_.jpg",
+      artist: "Avicii",
+      audio: "http://www.musci.rf.gd/04%20Addicted%20To%20You.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Liar Liar",
+      cover:
+        "https://images-na.ssl-images-amazon.com/images/I/61kS5HJqLDL._SL1200_.jpg",
+      artist: "Avicii",
+      audio: "http://www.musci.rf.gd/06%20Liar%20Liar.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Shame On Me",
+      cover:
+        "https://images-na.ssl-images-amazon.com/images/I/61kS5HJqLDL._SL1200_.jpg",
+      artist: "Avicii",
+      audio: "http://www.musci.rf.gd/07%20Shame%20On%20Me.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Long Road To Hell",
+      cover:
+        "https://images-na.ssl-images-amazon.com/images/I/61kS5HJqLDL._SL1200_.jpg",
+      artist: "Avicii",
+      audio: "http://www.musci.rf.gd/11%20Long%20Road%20To%20Hell.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 

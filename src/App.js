@@ -7,8 +7,6 @@ import Library from "./components/Library";
 import Nav from "./components/Nav";
 //Import data
 import data from "./data";
-//Util
-import { playAudio } from "./util";
 
 function App() {
   //Ref
@@ -40,14 +38,14 @@ function App() {
       volume: e.target.volume,
     });
   };
-  const songEndHandler = async () => {
+  const songAutoSkip = async () => {
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
     await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-    playAudio(isPlaying, audioRef);
+    if (isPlaying) audioRef.current.play();
     return;
   };
   return (
-    <div className={`App ${libraryStatus ? "library-active" : ""}`}>
+    <div className={`App ${libraryStatus ? "App-library-active" : ""}`}>
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
       <Song isPlaying={isPlaying} currentSong={currentSong} />
       <Player
@@ -68,13 +66,14 @@ function App() {
         isPlaying={isPlaying}
         setSongs={setSongs}
         libraryStatus={libraryStatus}
+        setIsPlaying={setIsPlaying}
       />
       <audio
         onLoadedMetadata={timeUpdateHandler}
         onTimeUpdate={timeUpdateHandler}
         ref={audioRef}
         src={currentSong.audio}
-        onEnded={songEndHandler}
+        onEnded={songAutoSkip}
       ></audio>
     </div>
   );

@@ -9,13 +9,13 @@ const Nav = ({ setLibraryStatus, libraryStatus }) => {
 
   return (
     <nav>
-      <h1>Nana's Music®</h1>
+      <h1>Nana's & Oscar Dario Music®</h1>
       <button
         className={libraryStatus ? "library-active" : ""}
         onClick={openLibraryHandler}
       >
         {/* <FontAwesomeIcon icon={faMusic}></FontAwesomeIcon> */}
-        <img src="music-album-28-1136734.svg" alt="x" />
+        <img src="music-album-28-1136734.svg" alt="library" />
       </button>
     </nav>
   );

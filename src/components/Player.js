@@ -8,9 +8,6 @@ import {
   faVolumeDown,
 } from "@fortawesome/free-solid-svg-icons";
 
-import { playAudio } from "../util";
-import Icon from "../library_cool_icon";
-
 const Player = ({
   isPlaying,
   setIsPlaying,
@@ -26,7 +23,7 @@ const Player = ({
 
   //UseEffect Update List
   const activeLibraryHandler = (nextPrev) => {
-    const newSongs = songs.map((song) => {
+    const redSongs = songs.map((song) => {
       if (song.id === nextPrev.id) {
         return {
           ...song,
@@ -40,7 +37,7 @@ const Player = ({
       }
     });
 
-    setSongs(newSongs);
+    setSongs(redSongs);
   };
 
   const trackAnim = {
@@ -66,7 +63,7 @@ const Player = ({
       setIsPlaying(!isPlaying);
     }
   };
-  const skipTrackHandler = async (direction) => {
+  const skipHandler = async (direction) => {
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
 
     //Forward BAck
@@ -78,7 +75,7 @@ const Player = ({
       if ((currentIndex - 1) % songs.length === -1) {
         await setCurrentSong(songs[songs.length - 1]);
         activeLibraryHandler(songs[songs.length - 1]);
-        playAudio(isPlaying, audioRef);
+        if (isPlaying) audioRef.current.play();
         return;
       }
       await setCurrentSong(songs[(currentIndex - 1) % songs.length]);
@@ -115,7 +112,7 @@ const Player = ({
       </div>
       <div className="play-control">
         <FontAwesomeIcon
-          onClick={() => skipTrackHandler("skip-back")}
+          onClick={() => skipHandler("skip-back")}
           className="skip-back"
           size="2x"
           icon={faAngleLeft}
@@ -130,7 +127,7 @@ const Player = ({
           className="skip-forward"
           size="2x"
           icon={faAngleRight}
-          onClick={() => skipTrackHandler("skip-forward")}
+          onClick={() => skipHandler("skip-forward")}
         />
         <div>
           <FontAwesomeIcon

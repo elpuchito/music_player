@@ -7,13 +7,15 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+//animation when the library opens up
 .App {
   transition: all 0.5s ease;
 }
-.library-active {
-  margin-left: 30%;
+.App-library-active {
+  margin-left: 20%;
 }
-
+//end of animation
 h1 {
   font-size: 1rem;
 }
