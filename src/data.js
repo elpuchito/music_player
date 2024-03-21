@@ -5,7 +5,7 @@ function data() {
     {
       name: "Seven Nation Army",
       cover: "covers/seven_nation_army.jpg",
-      artist: "The white Stripes",
+      artist: "The white sriaos",
       audio: "audio/01 - Seven Nation Army (Album Version).mp3",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
