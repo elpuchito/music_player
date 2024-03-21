@@ -10,7 +10,7 @@ function data() {
       audio:
         "audio/A Pedir Su Mano, Juan Luis Guerra (Merengues Clásicos 90s) - Franko Rojas.mp3",
       color: ["#CD607D", "#c94043"],
-      id: "uuidv4()",
+      id: uuidv4(),
       active: true,
     },
     {
@@ -20,7 +20,7 @@ function data() {
       audio:
         "audio/07 - El Niágra En Bicicleta (Live - Estadio Olímpico De República Dominicana_2012).mp3",
       color: ["#CD607D", "#c94043"],
-      id: "uuidv4()",
+      id: uuidv4(),
       active: false,
     },
     {
@@ -30,7 +30,7 @@ function data() {
       audio:
         "audio/05 - Mi Bendición (En Vivo Estadio Olímpico De República Dominicana_2012).mp3",
       color: ["#CD607D", "#c94043"],
-      id: "uuidv4()",
+      id: uuidv4(),
       active: false,
     },
     {
@@ -40,7 +40,7 @@ function data() {
       audio:
         "audio/11 - Bachata En Fukuoka (En Vivo Estadio Olímpico De República Dominicana_2012).mp3",
       color: ["#CD607D", "#c94043"],
-      id: "uuidv4()",
+      id: uuidv4(),
       active: false,
     },
     {
@@ -50,7 +50,7 @@ function data() {
       audio:
         "audio/04 - La Llave De Mi Corazón (Live - Estadio Olímpico De República Dominicana_2012).mp3",
       color: ["#CD607D", "#c94043"],
-      id: "uuidv4()",
+      id: uuidv4(),
       active: false,
     },
     {
@@ -60,7 +60,7 @@ function data() {
       audio:
         "audio/14 - Ojalá Que Llueva Café (Live - Estadio Olímpico De República Dominicana_2012).mp3",
       color: ["#CD607D", "#c94043"],
-      id: "uuidv4()",
+      id: uuidv4(),
       active: false,
     },
   ];
