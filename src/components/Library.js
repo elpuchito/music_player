@@ -16,10 +16,10 @@ const Library = ({
 
   return (
     <div className={`library ${libraryStatus ? "active-library" : " "}`}>
-      <h2>Libreria</h2>
+      <h2>Library</h2>
       <input
         type="text"
-        placeholder="busca aqui"
+        placeholder="Search here"
         onChange={(e) => {
           setsearchTerm(e.target.value);
         }}
