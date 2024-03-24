@@ -91,9 +91,10 @@ const Player = ({
 
   return (
     <div className="player">
+      <h4>Dale Play</h4>
       <div className="time-control">
         <p>{getTime(songInfo.currentTime)}</p>
-        <h4>Dale Play</h4>
+        
         <div
           style={{
             background: `linear-gradient(to right, ${currentSong.color[0]},${currentSong.color[1]})`,
