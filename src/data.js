@@ -4,7 +4,7 @@ function data() {
     //TOP 10
     {
       name: 'Querida Jodase',
-      cover: 'public/covers/unnamed.jpg',
+      cover: 'covers/unnamed.jpg',
       artist: 'Oscar D',
       audio: 'audio/jodase.mp3',
       color: [ '#CD607D', '#c94043' ],
