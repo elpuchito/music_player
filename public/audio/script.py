@@ -1,7 +1,7 @@
 import os
 
 # specify the directory you want to scan for files
-directory = '/Users/oscarcaceres/Documents/GitHub/music_player/public/audio'
+directory = '/Users/oscarcaceres/Documents/GitHub/music_player/public/audio/juan-luis'
 
 # use os.listdir to get the names of all files in the directory
 file_names = os.listdir(directory)

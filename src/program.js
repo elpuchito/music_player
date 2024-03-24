@@ -14,36 +14,20 @@
 //   "12. Fine Line.mp3",
 // ];
 raw = [
-  
-  "A Pedir Su Mano, Juan Luis Guerra (Merengues Clásicos 90s) - Franko Rojas.mp3",
-  
-  
-  "07 - El Niágra En Bicicleta (Live - Estadio Olímpico De República Dominicana_2012).mp3",
-  "05 - Mi Bendición (En Vivo Estadio Olímpico De República Dominicana_2012).mp3",
-  
-  "11 - Bachata En Fukuoka (En Vivo Estadio Olímpico De República Dominicana_2012).mp3",
-  "04 - La Llave De Mi Corazón (Live - Estadio Olímpico De República Dominicana_2012).mp3",
-  
-  "14 - Ojalá Que Llueva Café (Live - Estadio Olímpico De República Dominicana_2012).mp3",
-  
+  "11_Bachata_En_Fukuoka.mp3",
+  "04_La_Llave_De_Mi_Corazon.mp3",
+  "07_El_Niagra_En_Bicicleta.mp3",
+  "05_Mi_Bendicion.mp3",
+  "14_Ojala_Que_Llueva_Cafe.mp3",
+  "15_A_Pedir_Su_Mano__Juan_Luis_Guerra.mp3",
 ];
-[
-  "04 Ella Es Mi Fiesta.mp3",
-  "02 Cuando Nos Volvamos A Encontrar.mp3",
-];
+["04 Ella Es Mi Fiesta.mp3", "02 Cuando Nos Volvamos A Encontrar.mp3"];
 
-[
-  "Bomba Estéreo Somos Dos.mp3",
-  "Legend Effect Tú Si El Gerard Gaby.mp3",
-];
+["Bomba Estéreo Somos Dos.mp3", "Legend Effect Tú Si El Gerard Gaby.mp3"];
 
-[
-  "08 Get Lucky.mp3",
-  "06 Lose Yourself To Dance.mp3",
-  "05 Instant Crush.mp3",
-];
+["08 Get Lucky.mp3", "06 Lose Yourself To Dance.mp3", "05 Instant Crush.mp3"];
 
-["Maluma - ADMV.mp3",];
+["Maluma - ADMV.mp3"];
 
 const names = raw.map((s) => s.slice(3, -4));
 // console.log(names);
@@ -60,10 +44,12 @@ let uid = "uuidv4()";
 const obj = raw.map((name) => [
   {
     name: name.slice(3, -4),
-    cover: "https://m.media-amazon.com/images/I/61uPLHJ4nPL._SS500_.jpg",
+    cover:
+      "https://ia804605.us.archive.org/0/items/09-frio-frio/cover.jpg?cnt=0",
 
     artist: "Juan Luis Guerra",
-    audio: `audio/${name}`,
+    audio: `public/audio/juan-luis/${name}`,
+    
     color: ["#CD607D", "#c94043"],
     id: "uuidv4()",
     active: false,
